@@ -1,0 +1,32 @@
+.dados {
+    position: relative;
+    overflow: hidden;
+    transition: all ease .5s;
+}
+.dados img {
+    width: 100%;
+    transition: all ease .5s;
+    border-radius: 30px;
+}
+.dados:hover img {
+    transition: all ease .5s;
+    opacity: .7;
+}
+.dados p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(230 241 122 / 71%);
+    width: 100%;
+    padding: 40px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    transition: all ease .5s;
+    opacity: 0;
+}
+.dados:hover p {
+    transition: all ease .5s;
+    opacity: 1;
+}
