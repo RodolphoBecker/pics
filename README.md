@@ -1,3 +1,3 @@
 # React - Pics 
 
-Ferramenta de procura de imagens criada em React que consome dados da API do Unsplash, retornando uma lista de resultados com base no parâmetro informado no campo de procura.
+Image search tool created in React that consumes data from the Unsplash API, returning a list of results based on the parameter informed in the search field.
